@@ -22,6 +22,12 @@ public class Testcalc {
 		Calc c =new Calc();
 		assertEquals(1, c.sub(5,4));
 		
-		}	
+		}
+	@Test
+	public void testmul() {
+		Calc c =new Calc();
+		assertEquals(20, c.mul(5,4));
+		
+		}
 	
 }
