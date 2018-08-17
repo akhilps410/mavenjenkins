@@ -1,9 +1,9 @@
 package com.nissan.training.Calc;
 
 public class Calc {
-	int x=10;
+	
 	public int add(int x, int y){
-
+int m=10;
 		return x+y;
 	}
 	public int sub(int x, int y){
